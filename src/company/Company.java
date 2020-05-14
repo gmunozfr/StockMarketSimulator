@@ -1,3 +1,5 @@
+package company;
+
 // Author: Gamaliel Munoz Fraginals/2017092
 
 //Implementing the CompanyInterface
@@ -65,7 +67,7 @@ public class Company implements CompanyInterface {
 				" Capital: " + getCapital() + " Number of Shares Sold: " + shareSold;
 	}
 
-	// Builder Pattern. Generating a nested static Company builder class
+	// Builder Pattern. Generating a nested static Company builder class!
 	public static class CompanyBuilder{
 
 		private int c_id;

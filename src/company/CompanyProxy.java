@@ -1,7 +1,10 @@
+package company;
+
 // Author: Gamaliel Munoz Fraginals/2017092
 
 //Adding extra logic
 //Proxy Pattern. Implementing the CompanyInterface
+
 
 public class CompanyProxy implements CompanyInterface {
 

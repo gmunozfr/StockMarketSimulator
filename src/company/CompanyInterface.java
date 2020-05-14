@@ -1,3 +1,5 @@
+package company;
+
 // Author: Gamaliel Munoz Fraginals/2017092
 
 //abstract methods

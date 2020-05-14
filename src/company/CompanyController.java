@@ -1,6 +1,9 @@
+package company;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
+
 
 // Author: Gamaliel Munoz Fraginals/2017092
 
