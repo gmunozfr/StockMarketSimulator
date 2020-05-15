@@ -12,7 +12,7 @@ public class SetInvestor{
 
     Random rnd = new Random();
 
-    // The following method is implemented to dynamically generate 100 investors having a unique Id,
+    // The following method helps to dynamically generate 100 investors having a unique Id,
     // and considering a random budget between 1000 and 10000
 
     public void setInvestor(){
