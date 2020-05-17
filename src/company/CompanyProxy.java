@@ -14,6 +14,7 @@ public class CompanyProxy implements CompanyInterface {
         this.company = company;
     }
 
+    // Setting up getters and setters in order to be able to either access values or modify them!
     @Override
     public int getCid(){
         return company.getCid();

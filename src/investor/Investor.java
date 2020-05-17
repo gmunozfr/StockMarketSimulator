@@ -26,6 +26,7 @@ public class Investor{
 	public void setInv_id(int inv_id){
 		this.inv_id = inv_id;
 	}
+
 	public int getInv_share(){
 		return inv_share;
 	}
@@ -47,6 +48,7 @@ public class Investor{
 	public String toString(){
 		return "Investor Id: " + inv_id + " Number of shares invested: " + inv_share + " Budget: " + budget;
 	}
+
 	// Builder Pattern. Generating a nested static Investor builder class!!
 	public static class InvestorBuilder{
 
