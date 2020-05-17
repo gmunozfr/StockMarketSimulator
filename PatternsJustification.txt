@@ -1,0 +1,16 @@
+ 
+Builder Pattern:
+
+One of the main reasons that I found to implement the builder pattern is because it represents an inner public class inside another class in order to make the constructor private, also is hidden from everybody, and to create an object we solely need the builder. Besides, because of its methods and setters for each property regarding the class and a method that creates the object and returns it. Moreover, the setters also return the builder allowing them to be chained together. Despite the implementation of more code, it is really worth it in order to implement the program in an easier way. Additionally, we can create an object with only a few properties set instead of using a lot of nulls into the objects constructor, and we can only call the builders setters. Finally, we don't need a public constructor which might have a large amount of inputs.
+
+
+Facade Pattern: 
+
+Because it contains a complex logic which allow us to built different types of reports in order to display the companies and investors parameters. Besides, because it helps for the user to better understand how a simple interface works in an easy way hiding the complexity of the implementation. Ultimately, due to its complexity I can make it grow, for example, adding more report types using the same simple interface.
+ 
+
+
+Proxy Pattern: 
+
+Due to the fact that this pattern can add extra logic, in relation to the project, the CompanyProxy class wraps the Company class and adds an extra layer of logic such as implementing the following action: 'double the price of a company share, every 10th times they sell a share'. It is a smart proxy which changes the stock price every time the user updates the number of shares sold.
+It is important to mention that this logic should not be kept inside of the Company class itself because it is related to the trading logic, and the Company class itself only holds data.
